@@ -1,0 +1,76 @@
+@import "colors";
+
+@mixin inter-regular {
+  font: {
+    family: "Inter", sans-serif;
+    weight: 400;
+  }
+}
+
+@mixin inter-bold {
+  font: {
+    family: "Inter", sans-serif;
+    weight: 700;
+  }
+}
+
+@mixin lexend-deca-regular {
+  font: {
+    family: "Lexend Deca", sans-serif;
+    weight: 400;
+  }
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  background-color: $very-dark-blue;
+  text-align: center;
+}
+
+main {
+
+  .card {
+    background-color: $dark-desaturated-blue;
+  }
+
+  .main-heading {
+    @include inter-bold;
+    color: $white;
+  }
+
+  .emph {
+    color: $soft-violet;
+  }
+
+  .main-paragraph {
+    @include inter-regular;
+    color: $slightly-transparent-white-main-paragraph;
+  }
+
+  .stat {
+    @include inter-bold;
+    color: $white;
+  }
+
+  .stat-heading {
+    @include lexend-deca-regular;
+    color: $slightly-transparent-white-stat-headings;
+  }
+
+}
+
+footer {
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+}

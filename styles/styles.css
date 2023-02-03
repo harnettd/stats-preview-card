@@ -1,0 +1,43 @@
+html {
+  font-size: 15px;
+}
+
+body {
+  background-color: hsl(233deg, 47%, 7%);
+  text-align: center;
+}
+
+main .card {
+  background-color: hsl(244deg, 38%, 16%);
+}
+main .main-heading {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: hsl(0deg, 0%, 100%);
+}
+main .emph {
+  color: hsl(277deg, 64%, 61%);
+}
+main .main-paragraph {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: hsla(0deg, 0%, 100%, 0.75);
+}
+main .stat {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: hsl(0deg, 0%, 100%);
+}
+main .stat-heading {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  color: hsla(0deg, 0%, 100%, 0.6);
+}
+
+footer .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+footer .attribution a {
+  color: hsl(228deg, 45%, 44%);
+}/*# sourceMappingURL=styles.css.map */
