@@ -2,6 +2,10 @@ html {
   font-size: 15px;
 }
 
+* {
+  margin-top: 0;
+}
+
 body {
   background-color: hsl(233deg, 47%, 7%);
   font-family: "Inter", sans-serif;
