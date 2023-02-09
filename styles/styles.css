@@ -14,13 +14,27 @@ body {
   text-align: center;
   padding: 0;
 }
+@media only screen and (min-width: 1200px) {
+  body {
+    text-align: left;
+  }
+}
 
 main .card {
   background-color: hsl(244deg, 38%, 16%);
   border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
   margin: 4rem auto;
   overflow: hidden;
   width: 22rem;
+}
+@media only screen and (min-width: 1200px) {
+  main .card {
+    flex-direction: row;
+    margin: 12rem auto;
+    width: 74rem;
+  }
 }
 main .image-area .image-header {
   width: 100%;

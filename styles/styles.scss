@@ -1,5 +1,7 @@
 @import "colors";
 
+$extra-large: 1200px;
+
 html {
   font-size: 15px;
 }
@@ -17,6 +19,10 @@ body {
   margin: 0;
   text-align: center;
   padding: 0;
+
+  @media only screen and (min-width: $extra-large) {
+    text-align: left;
+  }
 }
 
 main {
@@ -24,9 +30,17 @@ main {
   .card {
     background-color: $dark-desaturated-blue;
     border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
     margin: 4rem auto;
     overflow: hidden;
     width: 22rem;
+
+    @media only screen and (min-width: $extra-large) {
+      flex-direction: row;
+      margin: 12rem auto;
+      width: 74rem;
+    }
   }
 
   .image-area {
