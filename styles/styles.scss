@@ -1,32 +1,15 @@
 @import "colors";
 
-@mixin inter-regular {
-  font: {
-    family: "Inter", sans-serif;
-    weight: 400;
-  }
-}
-
-@mixin inter-bold {
-  font: {
-    family: "Inter", sans-serif;
-    weight: 700;
-  }
-}
-
-@mixin lexend-deca-regular {
-  font: {
-    family: "Lexend Deca", sans-serif;
-    weight: 400;
-  }
-}
-
 html {
   font-size: 15px;
 }
 
 body {
   background-color: $very-dark-blue;
+  font: {
+    family: "Inter", sans-serif;
+    weight: 400;
+  }
   text-align: center;
 }
 
@@ -37,8 +20,8 @@ main {
   }
 
   .main-heading {
-    @include inter-bold;
     color: $white;
+    font-weight: 700;
   }
 
   .emph {
@@ -46,18 +29,20 @@ main {
   }
 
   .main-paragraph {
-    @include inter-regular;
     color: $slightly-transparent-white-main-paragraph;
   }
 
   .stat {
-    @include inter-bold;
     color: $white;
+    font-weight: 700;
   }
 
   .stat-heading {
-    @include lexend-deca-regular;
     color: $slightly-transparent-white-stat-headings;
+    font: {
+      family: "Lexend Deca", sans-serif;
+      weight: 400;
+    }
   }
 
 }
@@ -70,7 +55,7 @@ footer {
   }
 
   .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: $footer-blue;
   }
 
 }

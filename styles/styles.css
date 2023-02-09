@@ -4,6 +4,8 @@ html {
 
 body {
   background-color: hsl(233deg, 47%, 7%);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
   text-align: center;
 }
 
@@ -11,27 +13,23 @@ main .card {
   background-color: hsl(244deg, 38%, 16%);
 }
 main .main-heading {
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
   color: hsl(0deg, 0%, 100%);
+  font-weight: 700;
 }
 main .emph {
   color: hsl(277deg, 64%, 61%);
 }
 main .main-paragraph {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
   color: hsla(0deg, 0%, 100%, 0.75);
 }
 main .stat {
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
   color: hsl(0deg, 0%, 100%);
+  font-weight: 700;
 }
 main .stat-heading {
+  color: hsla(0deg, 0%, 100%, 0.6);
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
-  color: hsla(0deg, 0%, 100%, 0.6);
 }
 
 footer .attribution {
