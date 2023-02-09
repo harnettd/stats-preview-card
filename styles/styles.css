@@ -10,27 +10,40 @@ body {
   background-color: hsl(233deg, 47%, 7%);
   font-family: "Inter", sans-serif;
   font-weight: 400;
+  margin: 0;
   text-align: center;
+  padding: 0;
 }
 
 main .card {
   background-color: hsl(244deg, 38%, 16%);
+  border-radius: 1rem;
+  margin: 4rem auto;
+  overflow: hidden;
+  width: 22rem;
 }
-main .main-heading {
+main .image-area .image-header {
+  width: 100%;
+}
+main .text-area {
+  box-sizing: border-box;
+  padding: 1rem;
+}
+main .text-area .main-heading {
   color: hsl(0deg, 0%, 100%);
   font-weight: 700;
 }
-main .emph {
+main .text-area .emph {
   color: hsl(277deg, 64%, 61%);
 }
-main .main-paragraph {
+main .text-area .main-paragraph {
   color: hsla(0deg, 0%, 100%, 0.75);
 }
-main .stat {
+main .text-area .stat {
   color: hsl(0deg, 0%, 100%);
   font-weight: 700;
 }
-main .stat-heading {
+main .text-area .stat-heading {
   color: hsla(0deg, 0%, 100%, 0.6);
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;

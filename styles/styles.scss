@@ -14,39 +14,60 @@ body {
     family: "Inter", sans-serif;
     weight: 400;
   }
+  margin: 0;
   text-align: center;
+  padding: 0;
 }
 
 main {
 
   .card {
     background-color: $dark-desaturated-blue;
+    border-radius: 1rem;
+    margin: 4rem auto;
+    overflow: hidden;
+    width: 22rem;
   }
 
-  .main-heading {
-    color: $white;
-    font-weight: 700;
-  }
+  .image-area {
 
-  .emph {
-    color: $soft-violet;
-  }
-
-  .main-paragraph {
-    color: $slightly-transparent-white-main-paragraph;
-  }
-
-  .stat {
-    color: $white;
-    font-weight: 700;
-  }
-
-  .stat-heading {
-    color: $slightly-transparent-white-stat-headings;
-    font: {
-      family: "Lexend Deca", sans-serif;
-      weight: 400;
+    .image-header {
+      width: 100%
     }
+
+  }
+
+  .text-area {
+    box-sizing: border-box;
+    padding: 1rem;
+
+    .main-heading {
+      color: $white;
+      font-weight: 700;
+    }
+
+    .emph {
+      color: $soft-violet;
+    }
+
+    .main-paragraph {
+      color: $slightly-transparent-white-main-paragraph;
+    }
+
+    .stat {
+      color: $white;
+      font-weight: 700;
+    }
+
+    .stat-heading {
+      color: $slightly-transparent-white-stat-headings;
+
+      font: {
+        family: "Lexend Deca", sans-serif;
+        weight: 400;
+      }
+    }
+
   }
 
 }
