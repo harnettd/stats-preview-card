@@ -22,7 +22,7 @@ body {
 
 main .card {
   background-color: hsl(244deg, 38%, 16%);
-  border-radius: 1rem;
+  border-radius: 0.6rem;
   display: flex;
   flex-direction: column;
   margin: 4rem auto;
@@ -41,17 +41,21 @@ main .image-area .image-header {
 }
 main .text-area {
   box-sizing: border-box;
-  padding: 1rem;
+  padding: 2.3333rem 2.3333rem 0.8rem;
 }
 main .text-area .main-heading {
   color: hsl(0deg, 0%, 100%);
   font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
 }
 main .text-area .emph {
   color: hsl(277deg, 64%, 61%);
 }
 main .text-area .main-paragraph {
   color: hsla(0deg, 0%, 100%, 0.75);
+  line-height: 1.625;
+  margin-bottom: 2.6667rem;
 }
 main .text-area .stat-row {
   display: flex;
@@ -63,13 +67,20 @@ main .text-area .stat-row {
     justify-content: space-between;
   }
 }
+main .text-area .stat-row .stat-col {
+  margin-bottom: 1.0667rem;
+}
 main .text-area .stat-row .stat-col .stat {
   color: hsl(0deg, 0%, 100%);
   font-weight: 700;
+  font-size: 1.6rem;
+  margin-bottom: 0.4667rem;
 }
 main .text-area .stat-row .stat-col .stat-heading {
   color: hsla(0deg, 0%, 100%, 0.6);
+  letter-spacing: 0.0667rem;
   font-family: "Lexend Deca", sans-serif;
+  font-size: 0.8rem;
   font-weight: 400;
 }
 

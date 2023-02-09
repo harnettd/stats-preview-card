@@ -31,7 +31,7 @@ main {
 
   .card {
     background-color: $dark-desaturated-blue;
-    border-radius: 1rem;
+    border-radius: 0.6rem;
     display: flex;
     flex-direction: column;
     margin: 4rem auto;
@@ -55,11 +55,17 @@ main {
 
   .text-area {
     box-sizing: border-box;
-    padding: 1rem;
+    padding: 2.3333rem 2.3333rem 0.8rem;
 
     .main-heading {
       color: $white;
-      font-weight: 700;
+
+      font: {
+        weight: 700;
+        size: 1.8rem;
+      }
+
+      margin-bottom: 1rem;
     }
 
     .emph {
@@ -68,6 +74,8 @@ main {
 
     .main-paragraph {
       color: $slightly-transparent-white-main-paragraph;
+      line-height: 1.625;
+      margin-bottom: 2.6667rem;
     }
 
     .stat-row {
@@ -80,17 +88,26 @@ main {
       }
 
       .stat-col {
+        margin-bottom: 1.0667rem;
 
         .stat {
           color: $white;
-          font-weight: 700;
+
+          font: {
+            weight: 700;
+            size: 1.6rem;
+          }
+
+          margin-bottom: 0.4667rem;
         }
 
         .stat-heading {
           color: $slightly-transparent-white-stat-headings;
+          letter-spacing: 0.0667rem;
 
           font: {
             family: "Lexend Deca", sans-serif;
+            size: 0.8rem;
             weight: 400;
           }
         }
