@@ -31,7 +31,7 @@ main .card {
 }
 @media only screen and (min-width: 1200px) {
   main .card {
-    flex-direction: row;
+    flex-direction: row-reverse;
     margin: 12rem auto;
     width: 74rem;
   }
@@ -53,11 +53,21 @@ main .text-area .emph {
 main .text-area .main-paragraph {
   color: hsla(0deg, 0%, 100%, 0.75);
 }
-main .text-area .stat {
+main .text-area .stat-row {
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (min-width: 1200px) {
+  main .text-area .stat-row {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+main .text-area .stat-row .stat-col .stat {
   color: hsl(0deg, 0%, 100%);
   font-weight: 700;
 }
-main .text-area .stat-heading {
+main .text-area .stat-row .stat-col .stat-heading {
   color: hsla(0deg, 0%, 100%, 0.6);
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;

@@ -12,10 +12,12 @@ html {
 
 body {
   background-color: $very-dark-blue;
+
   font: {
     family: "Inter", sans-serif;
     weight: 400;
   }
+
   margin: 0;
   text-align: center;
   padding: 0;
@@ -37,7 +39,7 @@ main {
     width: 22rem;
 
     @media only screen and (min-width: $extra-large) {
-      flex-direction: row;
+      flex-direction: row-reverse;
       margin: 12rem auto;
       width: 74rem;
     }
@@ -68,22 +70,33 @@ main {
       color: $slightly-transparent-white-main-paragraph;
     }
 
-    .stat {
-      color: $white;
-      font-weight: 700;
-    }
+    .stat-row {
+      display: flex;
+      flex-direction: column;
 
-    .stat-heading {
-      color: $slightly-transparent-white-stat-headings;
+      @media only screen and (min-width: $extra-large) {
+        flex-direction: row;
+        justify-content: space-between;
+      }
 
-      font: {
-        family: "Lexend Deca", sans-serif;
-        weight: 400;
+      .stat-col {
+
+        .stat {
+          color: $white;
+          font-weight: 700;
+        }
+
+        .stat-heading {
+          color: $slightly-transparent-white-stat-headings;
+
+          font: {
+            family: "Lexend Deca", sans-serif;
+            weight: 400;
+          }
+        }
       }
     }
-
   }
-
 }
 
 footer {
@@ -96,5 +109,4 @@ footer {
   .attribution a {
     color: $footer-blue;
   }
-
 }
