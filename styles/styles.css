@@ -36,7 +36,19 @@ main .card {
     width: 74rem;
   }
 }
+main .image-area {
+  position: relative;
+}
 main .image-area .image-header {
+  width: 100%;
+}
+main .image-area .tinting {
+  background-color: hsl(277deg, 64%, 61%);
+  height: 100%;
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
   width: 100%;
 }
 main .text-area {
@@ -108,4 +120,6 @@ footer .attribution {
 }
 footer .attribution a {
   color: hsl(228deg, 45%, 44%);
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */
