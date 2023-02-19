@@ -49,11 +49,11 @@ main {
     position: relative;
 
     .image-header {
-      width: 100%
+      width: 100%;
     }
 
     .tinting {
-      background-color: $soft-violet;
+      background-color: $soft-violet-tint;
       height: 100%;
       left: 0;
       opacity: 0.5;

@@ -43,7 +43,7 @@ main .image-area .image-header {
   width: 100%;
 }
 main .image-area .tinting {
-  background-color: hsl(277deg, 64%, 61%);
+  background-color: hsl(277deg, 100%, 25%);
   height: 100%;
   left: 0;
   opacity: 0.5;
