@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background-color: hsl(233deg, 47%, 7%);
+  background-color: hsl(233, 47%, 7%);
   font-family: "Inter", sans-serif;
   font-weight: 400;
   margin: 0;
@@ -21,7 +21,7 @@ body {
 }
 
 main .card {
-  background-color: hsl(244deg, 38%, 16%);
+  background-color: hsl(244, 38%, 16%);
   border-radius: 0.6rem;
   display: flex;
   flex-direction: column;
@@ -44,7 +44,7 @@ main .image-area .image-header {
   width: 100%;
 }
 main .image-area .tinting {
-  background-color: hsl(277deg, 100%, 25%);
+  background-color: hsl(277, 100%, 25%);
   height: 100%;
   left: 0;
   opacity: 0.5;
@@ -63,7 +63,7 @@ main .text-area {
   }
 }
 main .text-area .main-heading {
-  color: hsl(0deg, 0%, 100%);
+  color: hsl(0, 0%, 100%);
   font-weight: 700;
   font-size: 1.8rem;
   margin-bottom: 1rem;
@@ -76,10 +76,10 @@ main .text-area .main-heading {
   }
 }
 main .text-area .emph {
-  color: hsl(277deg, 64%, 61%);
+  color: hsl(277, 64%, 61%);
 }
 main .text-area .main-paragraph {
-  color: hsla(0deg, 0%, 100%, 0.75);
+  color: hsla(0, 0%, 100%, 0.75);
   line-height: 1.625;
   margin-bottom: 2.6667rem;
 }
@@ -102,13 +102,13 @@ main .text-area .stat-row .stat-col {
   margin-bottom: 1.0667rem;
 }
 main .text-area .stat-row .stat-col .stat {
-  color: hsl(0deg, 0%, 100%);
+  color: hsl(0, 0%, 100%);
   font-weight: 700;
   font-size: 1.6rem;
   margin-bottom: 0.4667rem;
 }
 main .text-area .stat-row .stat-col .stat-heading {
-  color: hsla(0deg, 0%, 100%, 0.6);
+  color: hsla(0, 0%, 100%, 0.6);
   letter-spacing: 0.0667rem;
   font-family: "Lexend Deca", sans-serif;
   font-size: 0.8rem;
@@ -120,5 +120,5 @@ footer .attribution {
   text-align: center;
 }
 footer .attribution a {
-  color: hsl(228deg, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }/*# sourceMappingURL=styles.css.map */
