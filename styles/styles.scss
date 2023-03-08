@@ -22,7 +22,7 @@ body {
   text-align: center;
   padding: 0;
 
-  @media only screen and (min-width: $extra-large) {
+  @media screen and (min-width: $extra-large) {
     text-align: left;
   }
 }
@@ -33,7 +33,7 @@ main {
     border-radius: 0.6rem;
     display: flex;
     flex-direction: column;
-    margin: 4rem auto;
+    margin: 6rem auto;
     overflow: hidden;
     width: 22rem;
 
@@ -95,7 +95,7 @@ main {
 
     .main-paragraph {
       color: $slightly-transparent-white-main-paragraph;
-      line-height: 1.625;
+      line-height: 1.675;
       margin-bottom: 2.6667rem;
 
       @media screen and (min-width: $extra-large) {
